@@ -9,7 +9,38 @@ body{
 
 main{
     background-color: white;
-    width: 500px;
+    width: 560px;
     margin: auto;
     box-shadow: 3px 3px 5px rgba(0, 0 , 0, 0.473);
+    padding: 10px;
+}
+
+h1{
+    font-size: 20pt;
+    color: rgb(58, 0, 112);
+}
+
+h2{
+    font-size: 16pt;
+    color: rgb(58, 0, 112);
+}
+
+img.centro {
+    position: relative;
+    left: 130px;
+}
+
+img.lado {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 0, 112);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(58, 0, 112);
 }
